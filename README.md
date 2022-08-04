@@ -43,9 +43,8 @@ center {color:red;}
 	<br>
 		<br>
 		<br><br><br>
-	<br><br><br>
-	<center><h4>Ingin belajar pemrograman?<br>Download apk di bawah ini</h4>
-	<a href='https://cyberstudy.my.id/'><p>CyberStudy.my.id</p><br>
+
+
 <script>
 //popup teks biasa
 alert('Terimakasih telah mengunjungi web saya')
