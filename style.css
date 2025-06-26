@@ -600,3 +600,58 @@ footer{padding-bottom:50px}
 .itemFeatured .itemTitle a, .itemPopulars .itemTitle a{-webkit-line-clamp:2}
 footer .toTop:before{content:'Top'}
 }
+
+/*<![CDATA[*/
+/* Related Posts */
+.relatedPosts{margin:40px 0 0;line-height:1.6em} .relatedPosts ul{display:flex;flex-wrap:wrap; position:relative;width:calc(100% + 20px);left:-10px; list-style:none;margin:0;padding:0} .relatedPosts li{display:block;width:calc(33.333% - 20px); margin:0 10px 30px} .relatedPosts .itemThumbnail a{background-image:none; color:inherit} .relatedPosts .itemThumbnail > *:before{content:'No image';display:block;position:absolute;top:50%;left:50%;max-width:none;max-height:100%;-webkit-transform:translate(-50%, -50%);transform:translate(-50%, -50%); font-size:12px; opacity:.7} .relatedPosts .itemThumbnail div{background-position:center;background-size:cover;background-repeat:no-repeat; display:block;position:absolute;top:0;left:0;bottom:0;right:0} .relatedPosts .itemTitle{font-size:.85rem;line-height:1.5em; font-family:var(--font-head);font-weight:700}
+
+a.other{background:#bf00bf}
+span.other{color:#17bf63}
+/* Dark Mode */
+.darkMode{background-color:#161616;color:var(--dark-text)}
+.darkMode span.other, .darkMode .blogContent .widget .title svg, .darkMode .postLabel > *:not(:last-child):after{color:#cd00cd;stroke:#cd00cd}
+.darkMode .blogContent .widget .title:after{background:#cd00cd}
+.darkMode a.other{background:#00a255}
+.darkMode .postLabel > *:before, .darkMode .Label .labelShow label, .darkMode a, .darkMode .free:after, .darkMode .new:after, .darkMode .postLabel > a:hover, .darkMode .postMore:hover{color:#c544ff}
+.darkMode svg{fill:var(--dark-text)}
+.darkMode svg.line, .darkMode svg .line{fill:none;stroke:#8a9cff}
+.darkMode svg.linem, .darkMode svg .linem{fill:none;stroke:#8a9cff}
+.darkMode svg.c-1, .darkMode svg .c-1{fill:var(--dark-text)}
+.darkMode svg.c-2, .darkMode svg .c-2{fill:var(--dark-textAlt); opacity:.4}
+.darkMode h1, .darkMode h2, .darkMode h3, .darkMode h4, .darkMode h5, .darkMode h6, .darkMode header a, .darkMode footer, .darkMode li, .darkMode span, .darkMode b, .darkMode div {color:#fefefe}
+
+.darkMode .popup, .darkMode header, .darkMode .itemFeatured .item, .darkMode .mainMenu, .darkMode .htmlMenu .close, .darkMode #LinkList002{background-color:#2d2d30;color:inherit}
+.darkMode .Blog article{background-color:#1f1f1f;color:inherit}
+.darkMode .PopularPosts, .darkMode .Label {background: #2d2d30;}
+.darkMode .headerIcon .headerProfile, .darkMode #mobile-menu, .darkMode .commentsContent ol > li, .darkMode .commentContent i[rel="image"]:before{background-color:#242831}
+
+.darkMode header, .darkMode .headerIcon .headerProfile, .darkMode .headerIcon .headerProfile .socialLink, .darkMode .blogContent .mainbar > *,
+.darkMode .mainMenu, .darkMode .htmlMenu > li.break:after, .darkMode .Label .cloud .labelName, .darkMode .postComments > *, .darkMode .postTimes, .darkMode .postRelated, .darkMode .postRelated h3, .darkMode .postRelated h4, .darkMode .postRelated b, .darkMode .post blockquote, .darkMode .post .commentContent i[rel="quote"], .darkMode .post table th, .darkMode .post table td, .darkMode .post .tocInner, .darkMode .post .spoiler, .darkMode .accordion li, .darkMode .postShare, .darkMode .shareIcon > *, .darkMode .sharePreview, .darkMode .blogComments .commentsTitle, .darkMode .commentsIcon .commentClose, .darkMode .commentsContent ul > li:not(:last-child), .darkMode .commentContent.hasDeleted, .darkMode .commentContent i[rel="image"]:before, .darkMode .commentContent i[rel="quote"], .darkMode .post .tabsHead, .darkMode .post .tabsHead > *, .darkMode .post .proPrice, .darkMode .post .proInfoL, .darkMode .post .proInfoR, .darkMode .post .proInfo.one, .darkMode .post .proMarket > a{border-color:rgba(255,255,255,.1)}
+.darkMode .Profile .team .profileLink:hover, .darkMode .htmlMenu a.link:hover, .darkMode .htmlMenu > li li a:hover, .darkMode .postThumbnail div, .darkMode .postThumbnail a, .darkMode .blogPager .noPost, .darkMode .blogPager .current, .darkMode .postNav .current{background-color:rgba(255,255,255,.1)}
+.darkMode #mobile-menu, .darkMode .commentsContent ol > li{border-color:transparent;color:inherit}
+
+.darkMode .postLabel > a, .darkMode .postTitle a, .darkMode .itemTitle a, .darkMode .postInfo a, .darkMode .blogPager a, .darkMode .postNav a, .darkMode .breadcrumbs a, .darkMode .button, .darkMode .shareIcon a, .darkMode .commentActions a, .darkMode .commentReply a, .darkMode .tableOfContent a, .darkMode .post .tocInner a{color:#fefefe}
+.darkMode .commentReplies{background-color:rgba(0,0,0,.1)}
+.darkMode .postComments > a:before{background-color:var(--dark-bgAlt)}
+.darkMode .postComments svg, .darkMode .postComments > *:hover svg.line .fill{fill:var(--dark-text);opacity:.8}
+.darkMode .postComments svg.line{fill:none;stroke:var(--dark-text);opacity:.8}
+.darkMode .blogContent .widget input[type=text], .darkMode .blogContent .widget input[type=email], .darkMode .blogContent .widget textarea{border-color:rgba(255,255,255,.1); background-color:var(--dark-bgAlt)}
+.darkMode .blogContent .widget input[type=text]:focus, .darkMode .blogContent .widget input[type=email]:focus, .darkMode .blogContent .widget textarea:focus{border-color:var(--body-altColor)}
+@media screen and (max-width:896px){
+.darkMode .headerSearch input[type=text]{background-color:var(--dark-bgAlt)}
+.darkMode .mainMenu{background-color:transparent}
+.darkMode .mainMenu .section{background-color:#20212a}
+.darkMode .navInput:checked ~ .mainWrapper .htmlMenu a.link:hover{background-color:rgba(255,255,255,.1)}
+}
+
+@media screen and (max-width:1100px){
+.relatedPosts li{width:calc(50% - 20px)}}
+@media screen and (max-width:896px){.relatedPosts li{width:calc(33.333% - 20px)}}
+@media screen and (max-width:640px){.relatedPosts li{width:calc(50% - 20px)}}
+@media screen and (max-width:480px){
+.darkMode .itemFeatured .itemContent{background-color:var(--dark-bgSec)}
+.relatedPosts ul{flex-wrap:nowrap;width:calc(100% + 40px);left:-20px;margin-bottom:50px;padding:0 20px; overflow-y:hidden;overflow-x:scroll;scroll-behavior:smooth;scroll-snap-type:x mandatory; -ms-overflow-style:none;-webkit-overflow-scrolling:touch} .relatedPosts li{display:block;flex-shrink:0; width:70%; margin:0 15px 0 0; scroll-snap-align:center} .relatedPosts li:last-child{margin-right:0} .relatedPosts ul:after{content:'';display:block;flex-shrink:0; align-self:stretch;padding-left:20px}
+.relatedPosts .itemTitle{font-size:13px}
+}
+
+  /*]]>*/
